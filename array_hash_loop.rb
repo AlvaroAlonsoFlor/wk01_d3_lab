@@ -1,5 +1,4 @@
-# Write a function that takes has two parameters, array1 and array2
-# It should return the sum of the array lengths
+
 
 def add_array_lengths(array1, array2)
 
@@ -7,14 +6,22 @@ def add_array_lengths(array1, array2)
 
 end
 
-# Write a function that has a parameter named numbers
-# It should return the sum value of
-#an array passed as the argument
-
 def sum_array(numbers)
   total = 0
   for number in numbers
     total += number
   end
   return total
+end
+
+def find_item(array, string)
+
+  for item in array
+    if item == string
+      return true
+    end
+  end
+
+  return false
+
 end
