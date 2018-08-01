@@ -25,3 +25,10 @@ def find_item(array, string)
   return false
 
 end
+
+# # Write a function that has one parameter hash
+# # It should return the first key from the hash
+
+def get_first_key(hash)
+  return hash.keys[0]
+end
