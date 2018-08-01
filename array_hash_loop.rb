@@ -11,7 +11,7 @@ end
 # It should return the sum value of
 #an array passed as the argument
 
-def some_array(numbers)
+def sum_array(numbers)
   total = 0
   for number in numbers
     total += number
